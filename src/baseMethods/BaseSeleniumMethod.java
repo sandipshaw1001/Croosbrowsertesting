@@ -141,6 +141,9 @@ public class BaseSeleniumMethod {
 	public static String getWindowTitleInString(WebDriver driver, String url) {
 		return driver.getTitle();
 	}
+	public static WebElement switchToActiveElement(WebDriver driver, String url) {
+		return driver.switchTo().activeElement();
+	}
 	
 	
 	
