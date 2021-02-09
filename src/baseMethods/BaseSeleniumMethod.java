@@ -133,6 +133,8 @@ public class BaseSeleniumMethod {
 	public static void openUrl(WebDriver driver, String url) {
 		driver.get(url);
 	}
+	
+	//test
 	public static String getCurrentUrl(WebDriver driver, String url) {
 		return driver.getCurrentUrl();
 	}
