@@ -138,9 +138,10 @@ public class BaseSeleniumMethod {
 	public static String getCurrentUrl(WebDriver driver, String url) {
 		return driver.getCurrentUrl();
 	}
-	public static String getWindowTitle(WebDriver driver, String url) {
+	public static String getWindowTitleInString(WebDriver driver, String url) {
 		return driver.getTitle();
 	}
+	
 	
 	
 	
